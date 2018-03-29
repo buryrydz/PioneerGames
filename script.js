@@ -14,4 +14,19 @@ $(document).ready(function() {
             scrollTop: $("#contact").offset().top
         }, 1000);
     });
+
+    var menuVisible = false;
+    $('#menu-icon').click(function() {
+      if (menuVisible) {
+        $('header #header-inner nav ul').css({'display':'none'});
+        menuVisible = false;
+        return;
+      }
+      $('header #header-inner nav ul').css({'display':'block'});
+      menuVisible = true;
+    });
+    $('header #header-inner nav ul').click(function() {
+      $(this).css({'display':'none'});
+      menuVisible = false;
+    });
 });
