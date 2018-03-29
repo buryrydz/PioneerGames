@@ -319,7 +319,7 @@ footer #footer-inner p {
         margin-right: 5px;
     }
 
-    header #header-inner nav ul, header #header-inner nav:active ul {
+    header #header-inner nav ul {
         display: none;
         position: absolute;
         z-index: 1;
@@ -342,9 +342,9 @@ footer #footer-inner p {
         color: #eaeaea;
     }
 
-    header #header-inner nav:hover ul {
+    /* header #header-inner nav:hover ul {
         display: block;
-    }
+    } */
 
     #home #home-inner p {
         font-size: 110%;
