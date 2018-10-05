@@ -60,7 +60,7 @@ header #header-inner #logo {
     height: 80px;
     float: left;
     padding: 5px;
-    background: url("../img/logo.png") no-repeat center;
+    background: url("./img/logo.png") no-repeat center;
 }
 
 header #header-inner nav {
